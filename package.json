@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +15,12 @@
     "satu"
   ],
   "author": "Yonatan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
 }
